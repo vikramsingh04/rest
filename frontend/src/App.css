@@ -1,0 +1,76 @@
+/* App.css */
+
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 80%;
+  height: 150px;
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+select {
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  height: auto; /* Allows the dropdown to expand for multiple selections */
+  min-height: 100px; /* Ensures a minimum height for the dropdown */
+}
+
+option {
+  padding: 10px;
+}
+
+/* Styling for selected options in the dropdown */
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+div {
+  width: 80%;
+  margin: 20px auto;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
