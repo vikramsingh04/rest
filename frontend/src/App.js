@@ -10,7 +10,7 @@ function App() {
     const handleSubmit = async () => {
         try {
             const jsonData = JSON.parse(input);
-            const res = await axios.post('http://localhost:3000/bfhl', jsonData);
+            const res = await axios.post('https://rest-1-8pxz.onrender.com/bfhl', jsonData);
             setResponse(res.data);
         } catch (error) {
             alert("Invalid JSON or API call failed!");
